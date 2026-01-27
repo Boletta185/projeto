@@ -27,7 +27,7 @@
 body{
        
  background: var(--bg-url) no-repeat top center/cover;
-
+height: 100vh;
 
     }
 
@@ -46,7 +46,7 @@ body, a, button, p, h1, h2, h3, span {
 #container{
 
 width: 100%;
-max width: 588px;
+max-width: 588px;
 margin: 56px auto 0px;
 padding: 0 24px;
 
@@ -179,4 +179,18 @@ footer{
 padding: 24px 0;
 text-align: center;
 font-size: 14px;
+}
+
+/* media queries */
+@media (min-width: 700px) {
+:root {
+--bg-url: url(./bg-desktop);
+
+}
+
+.light{
+--bg-url: url(./bg-desktop-light.jpg);
+
+
+}
 }
