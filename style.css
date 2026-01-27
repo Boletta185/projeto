@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    pad: 0;
+    padding: 0;
     
 }
 
@@ -9,7 +9,7 @@
 --bg-url: url(/bg-mobile.jpg);
 --stroke-color: rgba(255, 255, 255, 0.5);
 --surface-color:  rgba(255, 255, 255, 0.1);
---surface-color-houver:  rgba(0, 0, 0, 0.2);
+--surface-color-hover:  rgba(0, 0, 0, 0.2);
 --highlight-color: rgba(255, 255, 255, 0.2);
 --switch-bg-url:url(./moon-stars.svg);
 }
@@ -19,7 +19,7 @@
 --bg-url: url(/bg-mobile-light.jpg);
 --stroke-color: rgba(0, 0, 0, 0.5);
 --surface-color:  rgba(255, 255, 255, 0.1);
---surface-color-houver:  rgba(0, 0, 0, 0.2);
+--surface-color-hover:  rgba(0, 0, 0, 0.2);
 --highlight-color: rgba(0, 0, 0, 0.1);
 --switch-bg-url:url(./sun.svg);
 }
@@ -34,7 +34,7 @@ height: 100vh;
     
 body * {
   font-family: "Inter", sans-serif;
-  color: #ffff;
+  color: #fff;
   color: var(--text-color);
 }
 
@@ -103,8 +103,8 @@ width: 64px;
 height: 24px;
 background: var(--surface-color);
 border: 1px solid var(--stroke-color);
--webkit-backdrop-filter: blur (4px);
-backdrop-filter: blur  (4px);
+-webkit-backdrop-filter: blur(4px);
+backdrop-filter: blur(4px);
 border-radius: 9999px;
 
 }
