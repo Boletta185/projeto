@@ -6,7 +6,7 @@
 
 :root{
  --text-color: white;
---bg-url: url(./bg-mobile.jpg);
+--bg-url: url("./bg-mobile.jpg");
 --stroke-color: rgba(255, 255, 255, 0.5);
 --surface-color:  rgba(255, 255, 255, 0.1);
 --surface-color-hover:  rgba(0, 0, 0, 0.2);
@@ -16,7 +16,7 @@
 
 .light{
 --text-color: black;
---bg-url: url(./bg-mobile-light.jpg);
+--bg-url: url("./bg-mobile-light.jpg");
 --stroke-color: rgba(0, 0, 0, 0.5);
 --surface-color:  rgba(255, 255, 255, 0.1);
 --surface-color-hover:  rgba(0, 0, 0, 0.2);
@@ -27,7 +27,7 @@
 body{
        
  background: var(--bg-url) no-repeat top center/cover;
-height: 100vh;
+min-height: 100vh;
 
     }
 
@@ -191,12 +191,12 @@ font-size: 14px;
 /* media queries */
 @media (min-width: 700px) {
 :root {
---bg-url: url(./bg-desktop.jpg);
+--bg-url: url("./bg-desktop.jpg");
 
 }
 
 .light{
---bg-url: url(./bg-desktop-light.jpg);
+--bg-url: url("./bg-desktop-light.jpg");
 
 
 }
