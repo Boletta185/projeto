@@ -20,7 +20,6 @@ img.setAttribute('src', './avatar.png')
 }
 }  
 
-uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
 
 
 
