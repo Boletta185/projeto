@@ -30,13 +30,13 @@ html, body {
   background: var(--bg-url) no-repeat top center/cover;
 }
 
-
 body{
 
  min-height: 100svh;
 overflow-x: hidden;
 
     }
+
 
     
 body * {
